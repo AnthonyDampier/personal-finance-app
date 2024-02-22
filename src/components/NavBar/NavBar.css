@@ -23,11 +23,11 @@
 
 .nav-links li Link {
     text-decoration: none;
-    color: #333;
-    font-weight: 600;
     transition: color 0.3s ease;
 }
 
-.nav-links li Link:hover {
-    color: #007aff;
+.nav-links a {
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
 }
