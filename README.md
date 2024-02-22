@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Personal Finance App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+The Personal Finance App is a web-based application designed to help users manage their personal finances effectively. It provides features such as financial calculations, expense tracking, budgeting, goal setting, and financial insights.
 
-## Available Scripts
+## Features (Current)
+- Mortgage Calculator
+- Vehicle Loan Calculator
+- Retirement Calculator
+- Blog 
+- Contact Form
 
-In the project directory, you can run:
+## Feature (Future)
+- Market Trend: Allowing user to see market trends and see how these trends affect them. 
+- Market News: Inform user of new events in their economy and adjacent economies.
+- Expense Tracker: Allow users to track their expenses and categorize them for better financial management.
+- Budget Planner: Provide a tool for users to create and manage budgets, helping them allocate their income effectively.
+- Goal Tracker: Enable users to set financial goals and track their progress towards achieving them.
+- Investment Portfolio: Integrate with financial APIs to allow users to track and manage their investment portfolios.
+- Bill Reminder: Send notifications to users for upcoming bill payments to avoid late fees and penalties.
+- Financial Insights: Generate personalized reports and insights based on user's financial data to help them make informed decisions.
+- Multi-currency Support: Allow users to manage their finances in different currencies for international users.
+- Expense Analysis: Provide visualizations and charts to help users analyze their spending patterns and identify areas for improvement.
 
-### `npm start`
+## Installation
+1. Clone the repository: `git clone https://github.com/your-username/personal-finance-app.git`
+2. Install dependencies: `npm install`
+3. Start the application: `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- Front-end: HTML, CSS, JavaScript, React, Redux
 
-### `npm test`
+## Contributing
+Contributions are welcome! If you have any suggestions or find any issues, please open an issue or submit a pull request.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+This project is licensed under the [Unlicensed License](LICENSE).
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any inquiries or feedback, please contact us at [Dampieranthony2@gmail.com](mailto:Dampieranthony2@gmail.com).
