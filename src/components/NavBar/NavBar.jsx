@@ -10,7 +10,7 @@ const NavBar = () => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/MortgageCalcs">Mortgage</Link></li>
                 <li><Link to="/VehicleCalcs">Vehicle</Link></li>
-                <li><Link to="/retirement">Retirement</Link></li>
+                <li><Link to="/Retirement">Retirement</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
         </nav>
