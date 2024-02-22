@@ -6,7 +6,7 @@ import HeroSection from '../../components/HomeComponents/HeroSection/HeroSection
 import FeaturedContent from '../../components/HomeComponents/FeaturedContent/FeaturedContent';
 import CallToAction from '../../components/HomeComponents/CallToAction/CallToAction';
 // import SidebarAds from '../../components/SidebarAds/SidebarAds';
-import ContactForm from '../../components/HomeComponents/ContactForm/ContactForm';
+import ContactForm from '../../components/ContactForm/ContactForm';
 import BlogReferences from '../../components/HomeComponents/BlogReferences/BlogReferences';
 
 
