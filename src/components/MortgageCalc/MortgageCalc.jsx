@@ -59,10 +59,10 @@ const MortCalculations = ({
   }, [purchasePrice, downPayment, annualInterestRate, loanTerm, ltv, monthlyPayment, totalInterest, lifeTimeRepayment]);
 
   return (
-    <div class="apple-style-container">
-        <form class="mortgage-form" onSubmit={handleSubmit}>
+    <div className="apple-style-container">
+        <form className="mortgage-form" onSubmit={handleSubmit}>
             <h1>Mortgage Calculator</h1>
-            <div class="form-group">
+            <div className="form-group">
                 <label for="purchasePrice">Purchase Price:</label>
                 <input
                     id="purchasePrice"
@@ -71,7 +71,7 @@ const MortCalculations = ({
                     onChange={(e) => setPurchasePrice(e.target.value)}
                 />
             </div>
-            <div class="form-group">
+            <div className="form-group">
                 <label for="downPayment">Down Payment:</label>
                 <input
                     id="downPayment"
@@ -80,7 +80,7 @@ const MortCalculations = ({
                     onChange={(e) => setDownPayment(e.target.value)}
                 />
             </div>
-            <div class="form-group">
+            <div className="form-group">
                 <label for="annualInterestRate">Annual Interest Rate (%):</label>
                 <input
                     id="annualInterestRate"
@@ -90,7 +90,7 @@ const MortCalculations = ({
                     onChange={(e) => setAnnualInterestRate(e.target.value)}
                 />
             </div>
-            <div class="form-group">
+            <div className="form-group">
                 <label for="loanTerm">Loan Term (years):</label>
                 <input
                     id="loanTerm"
@@ -99,9 +99,9 @@ const MortCalculations = ({
                     onChange={(e) => setLoanTerm(e.target.value)}
                 />
             </div>
-            <button class="calculate-btn" type="submit">Calculate</button>
+            <button className="calculate-btn" type="submit">Calculate</button>
         </form>
-        <div class="results-table">
+        <div className="results-table">
             <table>
                 <tbody>
                     <tr>

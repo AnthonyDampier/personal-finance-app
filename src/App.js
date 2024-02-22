@@ -31,6 +31,31 @@ function App() {
     downPayment: 50000
   };
 
+  const blogPosts = [
+    {
+      title: "Understanding React's useState Hook",
+      author: "Jane Doe",
+      date: "July 1, 2024",
+      summary: "A deep dive into how useState works and how to use it in your React applications.",
+      url: "https://example.com/blog/useState-hook"
+    },
+    {
+      title: "An Introduction to CSS Grid",
+      author: "Jane Doe",
+      date: "June 15, 2024",
+      summary: "Learn how to use CSS Grid to create complex and responsive layouts.",
+      url: "https://example.com/blog/css-grid"
+    },  
+    {
+      title: "A Guide to the CSS calc() Function",
+      author: "John Doe",
+      date: "June 1, 2024",
+      summary: "Discover how the CSS calc() function can make your styles more dynamic and flexible.",
+      url: "https://example.com/blog/css-calc-function"
+    }
+    // Add more blog post objects here
+  ];
+
   const userVehicleInfo = {
     vehicleCost: 35000,
     downPayment: 10000,
@@ -43,10 +68,12 @@ function App() {
       <div className="App">
         {/* <DraggableBox userInfo={userInfo} userFinancialInfo={userFinancialInfo} userMortgageInfo={userMortgageInfo} userVehicleInfo={userVehicleInfo}/> */}
         <NavBar />
-        <body>
           <Routes>
             {/* Home */}
-            <Route path="/" exact element={<Home />}>
+            <Route path="/" exact 
+              element={
+                <Home blogPosts={blogPosts}/>
+              }>
             </Route>
             {/* Home calcs */}
             <Route path="/MortgageCalcs"
@@ -72,7 +99,6 @@ function App() {
 
             {/* Define more routes as needed */}
           </Routes>
-        </body>
         <Footer />
       </div>
     </Router>

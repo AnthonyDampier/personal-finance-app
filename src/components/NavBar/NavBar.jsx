@@ -5,8 +5,8 @@ import './NavBar.css';
 const NavBar = () => {
     return (
     <header>
-        <nav class="apple-nav">
-            <ul class="nav-links">
+        <nav className="apple-nav">
+            <ul className="nav-links">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/MortgageCalcs">Mortgage</Link></li>
                 <li><Link to="/VehicleCalcs">Vehicle</Link></li>

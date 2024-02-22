@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer class="apple-footer">
+        <footer className="apple-footer">
             <p>© 2024 Company Name. All rights reserved.</p>
         </footer>
     )
