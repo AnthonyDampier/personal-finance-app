@@ -11,7 +11,6 @@ import BlogReferences from '../../components/HomeComponents/BlogReferences/BlogR
 
 
 const HomePage = ({blogPosts}) => {
-  console.log(blogPosts);
   return (
     <main className="homepage main-content">
       <HeroSection />

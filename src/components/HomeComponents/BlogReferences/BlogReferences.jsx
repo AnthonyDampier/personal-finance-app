@@ -3,7 +3,6 @@ import BlogPost from './BlogPost/BlogPost';
 import './BlogReferences.css';
 
 const BlogReferences = ({ blogPosts }) => {
-    console.log(blogPosts)
   return (
     <>
         <h2 className='blog-header'>Blog References</h2>

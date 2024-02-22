@@ -46,7 +46,6 @@ const MortCalculations = ({
 
   // Example calculation trigger (can be adjusted based on form handling)
   const handleSubmit = async (e) => {
-    console.log("submit");
     e.preventDefault();
     setMonthlyPayment(calculateMonthlyPayment());
     setTotalInterest(calculateTotalInterest(calculateMonthlyPayment()));
