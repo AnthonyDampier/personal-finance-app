@@ -1,0 +1,30 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.apple-header, .apple-footer {
+    background-color: #f8f8f7;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.apple-nav .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    padding: 20px;
+    justify-content: center;
+}

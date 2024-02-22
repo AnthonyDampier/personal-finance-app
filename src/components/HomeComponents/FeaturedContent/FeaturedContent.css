@@ -1,0 +1,30 @@
+.features-section {
+    margin: 20px 0;
+}
+
+.features-section h2 {
+    margin-bottom: 10px;
+    color:black
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+
+.features-grid a {
+    text-decoration: none;
+    color: #333;
+}
+
+.feature-item{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: #333;
+}
