@@ -8,6 +8,7 @@ import HomeCalculations from './Pages/HomeCalculations/HomeCalculations';
 import VehicleCalculations from './Pages/VehicleCalculations/VehicleCalculations';
 import Home from './Pages/Home/Home';
 import Footer from './components/Footer/Footer';
+import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
   const userInfo = {
@@ -96,7 +97,11 @@ function App() {
               />
             }>
             </Route>
-
+            <Route path="/Contact" 
+              element={
+                <ContactForm />
+              }>
+            </Route>
             {/* Define more routes as needed */}
           </Routes>
         <Footer />
