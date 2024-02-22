@@ -1,13 +1,19 @@
 import React, { useState } from "react";
 import "./Retirement.css";
 
-const RetirementCalculator = () => {
+const RetirementCalculator = ({
+  userInfo,
+  userFinancialInfo,
+  userVehicleInfo, // Adjusted for vehicle loan context
+}) => {
+  const averageAnnualReturnRate = 7;
+
   const [form, setForm] = useState({
-    currentAge: "",
-    retirementAge: "",
-    currentSavings: "",
-    annualSavings: "",
-    annualReturnRate: "",
+    currentAge: userInfo.age,
+    retirementAge: userFinancialInfo.retirementAge,
+    currentSavings: userFinancialInfo.currentSavings,
+    annualSavings: userFinancialInfo.annualSavings,
+    annualReturnRate: averageAnnualReturnRate, // This value is not provided in the userFinancialInfo object
   });
   const [estimatedSavings, setEstimatedSavings] = useState(0);
 

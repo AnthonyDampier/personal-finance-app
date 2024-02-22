@@ -4,7 +4,7 @@ import "./VehicleLoanCalculations.css";
 const VehicleLoanCalc = ({
   userInfo,
   userFinancialInfo,
-  userVehicleInfo, // Adjusted for vehicle loan context
+  userVehicleInfo, 
 }) => {
   const [purchasePrice, setPurchasePrice] = useState(userVehicleInfo.vehicleCost || 30000);
   const [downPayment, setDownPayment] = useState(userVehicleInfo.downPayment || 5000);
