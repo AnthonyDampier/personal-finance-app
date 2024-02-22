@@ -68,7 +68,6 @@ function App() {
       <div className="App">
         {/* <DraggableBox userInfo={userInfo} userFinancialInfo={userFinancialInfo} userMortgageInfo={userMortgageInfo} userVehicleInfo={userVehicleInfo}/> */}
         <NavBar />
-        <body>
           <Routes>
             {/* Home */}
             <Route path="/" exact 
@@ -100,7 +99,6 @@ function App() {
 
             {/* Define more routes as needed */}
           </Routes>
-        </body>
         <Footer />
       </div>
     </Router>
