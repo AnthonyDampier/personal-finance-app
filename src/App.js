@@ -24,7 +24,9 @@ function App() {
   const userFinancialInfo = {
     income: 50000,
     expenses: 30000,
-    savings: 20000
+    currentSavings: 20000,
+    annualSavings: 5000,
+    retirementAge: 65,
   };
   
   const userMortgageInfo = {
@@ -106,7 +108,12 @@ function App() {
             </Route>
             <Route path="/Retirement"
               element={
-                <RetirementCalculations/>
+                <RetirementCalculations
+                  userInfo={userInfo}
+                  userFinancialInfo={userFinancialInfo}
+                  userMortgageInfo={userMortgageInfo}
+                  userVehicleInfo={userVehicleInfo}
+                />
               }>
             </Route>
           </Routes>
