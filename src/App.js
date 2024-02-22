@@ -2,11 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-import DraggableBox from './components/DevHelperComponents/DraggableBox';
-import NavBar from './components/NavBar/NavBar';
+// Pages
 import HomeCalculations from './Pages/HomeCalculations/HomeCalculations';
 import VehicleCalculations from './Pages/VehicleCalculations/VehicleCalculations';
 import Home from './Pages/Home/Home';
+import RetirementCalculations from './Pages/Retirement/Retirement';
+//Components
+import DraggableBox from './components/DevHelperComponents/DraggableBox';
+import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import ContactForm from './components/ContactForm/ContactForm';
 
@@ -102,7 +105,11 @@ function App() {
                 <ContactForm />
               }>
             </Route>
-            {/* Define more routes as needed */}
+            <Route path="/Retirement"
+              element={
+                <RetirementCalculations/>
+              }>
+            </Route>
           </Routes>
         <Footer />
       </div>
