@@ -17,13 +17,15 @@ const FeaturedContent = () => {
                 <Link to="/VehicleCalcs">
                     <div className="feature-item">
                         <h3>Vehicle Calculators</h3>
-                        <p>Description of Feature 2.</p>
+                        <p>Calculate the health of your vehicle loan and find information to help you understand your vehicle loan, the vehicle loan market, and discover opportunities to save!</p>
                     </div>
                 </Link>
-                <div className="feature-item">
-                    <h3>Feature 3</h3>
-                    <p>Description of Feature 3.</p>
-                </div>
+                <Link to="/Retirement">
+                    <div className="feature-item">
+                        <h3>Retirement Calc</h3>
+                        <p>Calculate the health of your retirement savings and find information to help you understand your retirement savings, the retirement savings market, and discover opportunities to save!</p>
+                    </div>
+                </Link>
             </div>
         </section>
     );
