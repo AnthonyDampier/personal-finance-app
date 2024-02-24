@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ContactForm.css';
+import SendEmail from '../../Utils/SendEmail.js';
 
 const ContactForm = () => {
     // State for form fields
@@ -30,6 +31,7 @@ const ContactForm = () => {
             //send formData to a backend server or API endpoint
             alert('Form submitted. Check the console for form data.');
             setFormData({ name: '', email: '', message: '' }); // reset form fields after submission
+            SendEmail(formData); // Send email using SendEmail utility (see src/Utils/SendEmail.js
         }
     };
 
